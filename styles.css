@@ -1,0 +1,85 @@
+html {
+    box-sizing:border-box;
+    background-image: linear-gradient(to right, #2C1000, #603813, #2C1000);
+    font-family: vendetta, serif;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.spacer {
+    opacity: 0%;
+    font-size: large;
+}
+
+.logo {
+    width: 30%;
+    align-items: center;
+}
+
+.navbar {
+    font-weight: 500;
+    font-size: 50px;
+    background-color: #2C1000;
+    margin: -20px 0 0 0;
+    padding-top: 10px;
+    position: fixed;
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 20px 0px 20px;
+
+}
+
+a:active {
+    color:#603813;
+}
+
+a:visited {
+    color: #E08C00;
+}
+
+li {
+    display: inline;
+}
+
+.grid-container {
+    display: grid;
+    color: #E08C00;
+    font-size: 50px;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;
+}
+
+.grid-img {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.grid-hours {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.grid-times {
+    grid-column-start: 2;
+}
+.grid-phone {   
+    grid-column-start: 2;
+}
+.grid-address {
+    grid-column-start: 2;
+}
+.grid-fb {
+    grid-column-start: 2;
+}
